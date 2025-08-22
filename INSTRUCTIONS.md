@@ -252,6 +252,47 @@ cd Lesson12 && java StreamsAndLambda
 - Методы потоков (filter, map, reduce)
 - Коллекторы
 
+## Урок 13: Многопоточность
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson13
+javac Multithreading.java
+java Multithreading
+
+# Способ 2: Из корневой папки
+javac Lesson13/Multithreading.java
+cd Lesson13 && java Multithreading
+```
+
+**Что изучить:**
+- Создание потоков
+- Синхронизация потоков
+- Ключевое слово synchronized
+- Методы wait(), notify(), notifyAll()
+- ThreadLocal
+- ExecutorService и ThreadPool
+
+## Урок 14: Сетевое программирование
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson14
+javac Networking.java
+java Networking
+
+# Способ 2: Из корневой папки
+javac Lesson14/Networking.java
+cd Lesson14 && java Networking
+```
+
+**Что изучить:**
+- Socket программирование
+- TCP клиент-сервер
+- UDP клиент-сервер
+- URL и HTTP соединения
+- InetAddress
+
 ## Советы по изучению
 
 1. **Читайте комментарии** - они объясняют каждую строку кода

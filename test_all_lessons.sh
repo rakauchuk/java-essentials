@@ -56,6 +56,8 @@ test_lesson 9 "Обработка исключений" "ExceptionHandling"
 test_lesson 10 "Работа с файлами" "FileIO"
 test_lesson 11 "Обобщения" "Generics"
 test_lesson 12 "Потоки и лямбда-выражения" "StreamsAndLambda"
+test_lesson 13 "Многопоточность" "Multithreading"
+test_lesson 14 "Сетевое программирование" "Networking"
 
 echo "=== Тестирование завершено ==="
 echo ""
