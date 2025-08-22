@@ -293,6 +293,127 @@ cd Lesson14 && java Networking
 - URL и HTTP соединения
 - InetAddress
 
+## Урок 15: Работа с базами данных (JDBC)
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson15
+javac DatabaseJDBC.java
+java DatabaseJDBC
+
+# Способ 2: Из корневой папки
+javac Lesson15/DatabaseJDBC.java
+cd Lesson15 && java DatabaseJDBC
+```
+
+**Что изучить:**
+- Подключение к базе данных
+- Выполнение SQL запросов
+- PreparedStatement
+- ResultSet
+- Транзакции
+
+## Урок 16: Веб-разработка (Servlets, JSP)
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson16
+javac WebDevelopment.java
+java WebDevelopment
+
+# Способ 2: Из корневой папки
+javac Lesson16/WebDevelopment.java
+cd Lesson16 && java WebDevelopment
+```
+
+**Что изучить:**
+- HTTP протокол
+- Servlet API
+- JSP страницы
+- Сессии и куки
+- Фильтры
+
+## Урок 17: Spring Framework
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson17
+javac SpringFramework.java
+java SpringFramework
+
+# Способ 2: Из корневой папки
+javac Lesson17/SpringFramework.java
+cd Lesson17 && java SpringFramework
+```
+
+**Что изучить:**
+- Dependency Injection (DI)
+- Inversion of Control (IoC)
+- Spring Beans
+- Аннотации Spring
+- Spring Boot
+- REST контроллеры
+
+## Урок 18: Тестирование (JUnit)
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson18
+javac TestingJUnit.java
+java TestingJUnit
+
+# Способ 2: Из корневой папки
+javac Lesson18/TestingJUnit.java
+cd Lesson18 && java TestingJUnit
+```
+
+**Что изучить:**
+- Основы тестирования
+- JUnit 5
+- Аннотации тестирования
+- Assertions
+- Моки и стабы
+
+## Урок 19: Логирование (Log4j, SLF4J)
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson19
+javac Logging.java
+java Logging
+
+# Способ 2: Из корневой папки
+javac Lesson19/Logging.java
+cd Lesson19 && java Logging
+```
+
+**Что изучить:**
+- Основы логирования
+- Уровни логирования
+- Конфигурация логгеров
+- SLF4J
+- Лучшие практики
+
+## Урок 20: Инструменты сборки (Maven/Gradle)
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson20
+javac BuildTools.java
+java BuildTools
+
+# Способ 2: Из корневой папки
+javac Lesson20/BuildTools.java
+cd Lesson20 && java BuildTools
+```
+
+**Что изучить:**
+- Инструменты сборки
+- Maven
+- Gradle
+- Управление зависимостями
+- Жизненный цикл сборки
+
 ## Советы по изучению
 
 1. **Читайте комментарии** - они объясняют каждую строку кода
