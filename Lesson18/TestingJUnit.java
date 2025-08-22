@@ -212,6 +212,7 @@ public class TestingJUnit {
         
         // Тестирование с использованием стаба
         UserService userService = new UserService();
+        userService.setUserRepository(new UserRepository());
         userService.setEmailService(emailStub);
         
         User user = userService.createUser("Test User");

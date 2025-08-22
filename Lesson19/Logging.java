@@ -127,10 +127,10 @@ public class Logging {
         BestPracticesLogger logger = new BestPracticesLogger();
         
         // Правильное использование уровней
-        logger.debug("Отладочная информация: значение переменной = {}", 42);
-        logger.info("Пользователь {} успешно аутентифицирован", "john_doe");
-        logger.warn("Медленный запрос к базе данных: {} мс", 1500);
-        logger.error("Ошибка при обработке файла: {}", "file.txt");
+        logger.debug("Отладочная информация: значение переменной = " + 42);
+        logger.info("Пользователь john_doe успешно аутентифицирован");
+        logger.warn("Медленный запрос к базе данных: " + 1500 + " мс");
+        logger.error("Ошибка при обработке файла: file.txt");
         
         // Структурированное логирование
         Map<String, Object> context = new HashMap<>();
@@ -254,8 +254,8 @@ class WebApplicationLogger {
         logger.warn("HTTP POST /api/users - 400 Bad Request");
         logger.error("HTTP GET /api/users/999 - 500 Internal Server Error");
         
-        logger.debug("Время обработки запроса: {} мс", 150);
-        logger.warn("Медленный запрос: {} мс", 2500);
+        logger.debug("Время обработки запроса: " + 150 + " мс");
+        logger.warn("Медленный запрос: " + 2500 + " мс");
     }
 }
 

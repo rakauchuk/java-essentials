@@ -123,6 +123,7 @@ public class SpringFramework {
         
         // Получение бинов
         UserService userService = (UserService) container.getBean("userService");
+        userService.setUserRepository((UserRepository) container.getBean("userRepository"));
         userService.createUser("Bob Johnson");
         
         System.out.println("Бины созданы и управляются контейнером");
@@ -181,7 +182,9 @@ public class SpringFramework {
         
         // Создание REST контроллера
         UserRestController controller = new UserRestController();
-        controller.setUserService(new UserService());
+        UserService userService = new UserService();
+        userService.setUserRepository(new UserRepository());
+        controller.setUserService(userService);
         
         // Симуляция HTTP запросов
         System.out.println("GET /api/users");
