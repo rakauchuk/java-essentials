@@ -111,11 +111,14 @@ java Lesson5.MethodsAndFunctions
 ## Урок 6: Объектно-ориентированное программирование
 
 ```bash
-# Компиляция
-javac Lesson6/ObjectOrientedProgramming.java
+# Способ 1: Из папки урока
+cd Lesson6
+javac ObjectOrientedProgramming.java
+java ObjectOrientedProgramming
 
-# Запуск
-java Lesson6.ObjectOrientedProgramming
+# Способ 2: Из корневой папки
+javac Lesson6/ObjectOrientedProgramming.java
+cd Lesson6 && java ObjectOrientedProgramming
 ```
 
 **Что изучить:**
@@ -125,6 +128,129 @@ java Lesson6.ObjectOrientedProgramming
 - Поля и методы
 - Ключевое слово this
 - toString() метод
+
+## Урок 7: Наследование и полиморфизм
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson7
+javac InheritanceAndPolymorphism.java
+java InheritanceAndPolymorphism
+
+# Способ 2: Из корневой папки
+javac Lesson7/InheritanceAndPolymorphism.java
+cd Lesson7 && java InheritanceAndPolymorphism
+```
+
+**Что изучить:**
+- Наследование классов
+- Переопределение методов (override)
+- Полиморфизм
+- Ключевое слово super
+- Многоуровневое наследование
+
+## Урок 8: Интерфейсы и абстрактные классы
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson8
+javac InterfacesAndAbstractClasses.java
+java InterfacesAndAbstractClasses
+
+# Способ 2: Из корневой папки
+javac Lesson8/InterfacesAndAbstractClasses.java
+cd Lesson8 && java InterfacesAndAbstractClasses
+```
+
+**Что изучить:**
+- Абстрактные классы
+- Интерфейсы
+- Реализация интерфейсов
+- Множественная реализация интерфейсов
+- Интерфейсы по умолчанию (default methods)
+
+## Урок 9: Обработка исключений
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson9
+javac ExceptionHandling.java
+java ExceptionHandling
+
+# Способ 2: Из корневой папки
+javac Lesson9/ExceptionHandling.java
+cd Lesson9 && java ExceptionHandling
+```
+
+**Что изучить:**
+- Типы исключений (checked и unchecked)
+- Блоки try-catch
+- Блок finally
+- Множественные catch блоки
+- Создание собственных исключений
+- Ключевое слово throws
+
+## Урок 10: Работа с файлами
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson10
+javac FileIO.java
+java FileIO
+
+# Способ 2: Из корневой папки
+javac Lesson10/FileIO.java
+cd Lesson10 && java FileIO
+```
+
+**Что изучить:**
+- Класс File
+- Чтение и запись файлов
+- BufferedReader и BufferedWriter
+- FileReader и FileWriter
+- Работа с директориями
+- Обработка исключений при работе с файлами
+
+## Урок 11: Обобщения (Generics)
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson11
+javac Generics.java
+java Generics
+
+# Способ 2: Из корневой папки
+javac Lesson11/Generics.java
+cd Lesson11 && java Generics
+```
+
+**Что изучить:**
+- Обобщенные классы
+- Обобщенные методы
+- Ограничения типов (bounds)
+- Wildcards (подстановочные знаки)
+- Обобщенные коллекции
+- Type erasure
+
+## Урок 12: Потоки и лямбда-выражения
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson12
+javac StreamsAndLambda.java
+java StreamsAndLambda
+
+# Способ 2: Из корневой папки
+javac Lesson12/StreamsAndLambda.java
+cd Lesson12 && java StreamsAndLambda
+```
+
+**Что изучить:**
+- Лямбда-выражения
+- Функциональные интерфейсы
+- Stream API
+- Методы потоков (filter, map, reduce)
+- Коллекторы
 
 ## Советы по изучению
 
