@@ -414,6 +414,29 @@ cd Lesson20 && java BuildTools
 - Управление зависимостями
 - Жизненный цикл сборки
 
+## Урок 21: Структуры данных в Java
+
+```bash
+# Способ 1: Из папки урока
+cd Lesson21
+javac DataStructures.java
+java DataStructures
+
+# Способ 2: Из корневой папки
+javac Lesson21/DataStructures.java
+cd Lesson21 && java DataStructures
+```
+
+**Что изучить:**
+- Списки: ArrayList vs LinkedList (временная сложность O(1) vs O(n))
+- Множества: HashSet, TreeSet, LinkedHashSet
+- Карты: HashMap, TreeMap, LinkedHashMap
+- Очереди: PriorityQueue, Deque
+- Стеки: Stack, Deque как стек
+- Сравнение производительности структур данных
+- Реальные примеры использования: LRU кэш, приоритетные очереди
+- Выбор правильной структуры данных для конкретной задачи
+
 ## Советы по изучению
 
 1. **Читайте комментарии** - они объясняют каждую строку кода

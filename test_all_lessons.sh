@@ -64,6 +64,7 @@ test_lesson 17 "Spring Framework" "SpringFramework"
 test_lesson 18 "Тестирование" "TestingJUnit"
 test_lesson 19 "Логирование" "Logging"
 test_lesson 20 "Инструменты сборки" "BuildTools"
+test_lesson 21 "Структуры данных" "DataStructures"
 
 echo "=== Тестирование завершено ==="
 echo ""
